@@ -1,0 +1,43 @@
+name: NERC One Stop Shop Monitor
+
+on:
+  schedule:
+    - cron: "0 13 * * *"  # 8:00 AM Central during Daylight Time (UTC-5 -> 13:00 UTC)
+    - cron: "0 14 * * *"  # 8:00 AM Central during Standard Time (UTC-6 -> 14:00 UTC)
+  workflow_dispatch: {}   # allow manual runs
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # allow committing baseline/summary back to repo
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run monitor
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          FROM_NAME: ${{ secrets.FROM_NAME }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: python bot.py
+
+      - name: Commit updated baseline & summary (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ output/ || true
+          git commit -m "Update baseline/summary $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "Nothing to commit"
+          git push
