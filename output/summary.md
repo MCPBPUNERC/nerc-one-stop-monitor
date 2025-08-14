@@ -1,4 +1,9 @@
-# NERC One Stop Shop – Baseline Established
-**Time:** 2025-08-13 14:32 CDT
+# NERC One Stop Shop – Daily Change Summary
+**Time:** 2025-08-14 08:32 CDT
 
-Saved the current spreadsheet as the baseline for future comparisons.
+- Added rows: **0**
+- Removed rows: **0**
+- Key column used: **Standard Number**
+- Changed cells: **0**
+
+_No changes detected._
