@@ -1,11 +1,9 @@
 # NERC One Stop Shop – Daily Change Summary
-**Time:** 2025-08-22 08:25 CDT
+**Time:** 2025-08-23 08:21 CDT
 
 - Added rows: **0**
 - Removed rows: **0**
 - Key column used: **Standard Number**
-- Changed cells: **1**
+- Changed cells: **0**
 
-## Sample Changes (up to 20)
-- **Row key:** PRC-006-NPCC-1
-    - `Project Page`: `WECC` → `NPCC`
+_No changes detected._
