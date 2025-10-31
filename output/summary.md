@@ -1,70 +1,68 @@
 # NERC One Stop Shop – Daily Change Summary
-**Time:** 2025-10-30 08:27 CDT
+**Time:** 2025-10-31 08:26 CDT
 
 - Added rows: **0**
 - Removed rows: **0**
 - Key column used: **Standard Number**
-- Changed cells: **83**
+- Changed cells: **236**
 
 ## Sample Changes (up to 20)
-- **Row key:** BAL-003-0.1a
-    - `Public Notes`: `` → `Filing/Order Docket No. RD09-2-000`
-- **Row key:** BAL-003-0.1b
-    - `Public Notes`: `` → `Filing/Order Docket No. RD09-2-000`
-- **Row key:** BAL-003-0a
-    - `Public Notes`: `` → `Filing/Order Docket No. RM08-7-000 `
-- **Row key:** BAL-003-0b
-    - `Public Notes`: `` → `Filing/Order Docket No. RM06-16-000, RM08-15-000, RM08-16-000`
-- **Row key:** CIP-001-1
-    - `Public Notes`: `Replaced with CIP-001-1a (Interpretation of R2)` → `Filing/Order Docket No. RM06-16-000,   RM07-3-000`
-- **Row key:** CIP-001-1a
-    - `Public Notes`: `Replaced with CIP-001-2a` → `Filing/Order Docket No. RD10-11-000`
-- **Row key:** CIP-001-2a
-    - `Public Notes`: `Replaced with EOP-004-2` → `Filing/Order Docket No. RD11-6-000`
-- **Row key:** CIP-002-1
-    - `Public Notes`: `Replaced with CIP-002-2` → `Filing/Order Docket No. RM06-16-000    RM06-22-000`
-- **Row key:** CIP-002-2
-    - `Public Notes`: `Replaced with CIP-002-3` → `Filing/Order Docket No. RM06-22-000, RD09-7-000`
-- **Row key:** CIP-002-3a
-    - `Public Notes`: `FERC remanded the interpretation of R3 in an order issued on 3/21/13` → `Filing/Order Docket No. RD12-5-000
+- **Row key:** CIP-005-2a
+    - `Public Notes`: `Replaced with CIP-005-3a` → `Filing/Order Docket No. RD10-12-000`
+- **Row key:** CIP-005-4a
+    - `Public Notes`: `` → `Filing/Order Docket No. RM06-22-000`
+- **Row key:** CIP-006-2a
+    - `Public Notes`: `Replaced with CIP-006-3a` → `Filing/Order Docket No. RD10-13-000`
+- **Row key:** CIP-006-2c
+    - `Public Notes`: `Replaced with CIP-006-3c` → `Filing/Order Docket No. RD10-13-000`
+- **Row key:** CIP-006-3a
+    - `Public Notes`: `Replaced with CIP-006-3c` → `RFiling/Order Docket No. D10-13-000`
+- **Row key:** CIP-006-3d
+    - `Public Notes`: `FERC remanded the interpretation of R1.1 in an order issued on 3/21/13` → `Filing/Order Docket No. RD12-3-000`
+- **Row key:** CIP-006-4d
+    - `Public Notes`: `FERC remanded the interpretation of R1.1 in an order issued on 3/21/13` → `Filing/Order Docket No. RD12-3-000
+
+`
+- **Row key:** CIP-007-2a
+    - `Public Notes`: `Replaced with CIP-007-3a` → `Filing/Order Docket No. RD10-3-000`
+- **Row key:** CIP-014-3
+    - `Public Notes`: `Petition CIP-014 Evidence Provision` → `Filing/Order Docket No. RD22-3-000
 
 
-FERC remanded the interpretation of R3 in an order issued on 3/21/13`
-- **Row key:** CIP-002-5.1
-    - `Public Notes`: `Errata approved by the SC on 9/27/2013` → `Filing/Order Docket No. RM13-5-000
+Petition CIP-014 Evidence Provision`
+- **Row key:** COM-001-0
+    - `Public Notes`: `Replaced with COM-001-1 (COM-001-0 was never enforceable)` → `Filing/Order Docket No. RM06-16-000
 
 
-Errata approved by the SC on 9/27/2013`
-- **Row key:** CIP-002-5.1a
-    - `Public Notes`: `CIP-002-5.1a replaced CIP-002-5.1` → `Filing/Order Docket No. RD17-2-000
+COM-001-0 was never enforceable`
+- **Row key:** COM-001-1
+    - `Public Notes`: `Replaced with COM-001-1.1 (Errata)
 
 
-CIP-002-5.1a replaced CIP-002-5.1`
-- **Row key:** CIP-002-8
-    - `Public Notes`: `RM25-8-000 RM25-8-000` → `Filing/Order Docket No. RM25-8-000 RM25-8-000`
-- **Row key:** CIP-003-1
-    - `Public Notes`: `Replaced with CIP-003-2` → `Filing/Order Docket No. RM06-16-000,  RM06-22-000
+R6. Each NERCNet User Organization shall adhere to the requirements in Attachment 1-COM-001, “NERCNet Security Policy.”` → `Filing/Order Docket No. RM06-16-000, RM07-3-000`
+- **Row key:** COM-001-1.1
+    - `Public Notes`: `Requirement R4 becomes inactive 6/30/2016` → `Filing/Order Docket No. RD09-2-000`
+- **Row key:** COM-001-2.1
+    - `Public Notes`: `Replaces COM-001-2` → `Filing/Order Docket No. RD15-6-000 (RM13-11-000, RM14-13-000, RD14-11-000 and RD15-3-000)`
+- **Row key:** COM-002-1
+    - `Public Notes`: `Replaced with COM-002-2 (COM-002-1 was never enforceable)` → `Filing/Order Docket No. RM06-16-000
 
 
-Replaced with CIP-003-2`
-- **Row key:** CIP-003-2
-    - `Public Notes`: `Replaced with CIP-003-3` → `Filing/Order Docket No. RM06-22-000, RD09-7-000
+COM-002-1 was never enforceable`
+- **Row key:** EOP-001-0
+    - `Public Notes`: `Replaced with EOP-001-0b (Interpretation of R1 and R3.2)` → `Filing/Order Docket No. RM06-16-000`
+- **Row key:** EOP-001-0.1b
+    - `Public Notes`: `Replaced with EOP-001-2.1b` → `Filing/Order Docket No. RD11-12-000`
+- **Row key:** EOP-001-2.1b
+    - `Public Notes`: `EOP-011-1 consolidates the requirements in three existing Reliability Standards: EOP-001-2.1b, EOP-002-3.1 and EOP-003-2 into a single Reliability Standard.` → `Filing/Order Docket No. RD12-4-000
+
+`
+- **Row key:** EOP-001-2b
+    - `Public Notes`: `Replaced by EOP-001-2.1b (Errata)` → `Filing/Order Docket No. RD11-12-000`
+- **Row key:** EOP-002-1
+    - `Public Notes`: `Replaced with EOP-002-2 (EOP-002-1 was never enforceable)` → `Filing/Order Docket No. RM06-16-000
 
 
-Replaced with CIP-003-3`
-- **Row key:** CIP-003-4
-    - `Public Notes`: `` → `Filing/Order Docket No. RM11-11-000`
-- **Row key:** CIP-003-5
-    - `Public Notes`: `CIP-003-5 will be superseded by CIP-003-6.` → `Filing/Order Docket No. RM13-5-000
-
-
-CIP-003-5 will be superseded by CIP-003-6.`
-- **Row key:** CIP-003-6
-    - `Public Notes`: `With the approval of CIP-003-7 and its associated Implementation Plan, entities will not be required to implement CIP-003-6, Requirement R2, Attachment 1, Sections 2 and 3. Instead, entities will implement CIP-003-7, Requirement R` → `Filing/Order Docket No. RM15-14-000
-
-
-With the approval of CIP-003-7 and its associated Implementation Plan, entities will not be required to implement CIP-003-6, Requirement R2, Attachment 1, Sections 2 and 3. Instead, entitie`
-- **Row key:** CIP-004-1
-    - `Public Notes`: `Replaced with CIP-004-2` → `Filing/Order Docket No. RM06-16-000,  RM06-22-000`
-- **Row key:** CIP-004-2
-    - `Public Notes`: `Replaced with CIP-004-3` → `Filing/Order Docket No. RM06-22-000, RD09-7-000`
+EOP-002-1 was never enforceable`
+- **Row key:** EOP-002-2
+    - `Public Notes`: `Replaced with EOP-002-2.1 (Errata)` → `Filing/Order Docket No. RM06-16-000, RM07-3-000`
